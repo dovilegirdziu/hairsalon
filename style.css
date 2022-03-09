@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 125%;
+    background-color: #001e1d;
+    color: #fffffe;
+}
+
+/* ADDITIONAL COLORS for details */
+/* p, a, etc. {
+background-color: #f9bc60;
+background-color: #e16162;
+background-color: #abd1c6;
+} */
+
+/* NAV */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1%; */
+    padding: 1%;
+}
+
+nav * {
+    padding: 5px;
+}
+
+nav a, div a {
+    color: #fffffe;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+strong {
+    font-family: 'Allura', cursive, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* HEADER */
+
+.cover {
+    height: 80vh;
+    background: url(img/LuisQuintero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 15%;
+    text-transform: uppercase;
+}
+
+.headline {
+    padding: 5% 7%;
+}
+
+.headline * {
+    margin: 20px;
+}
+
+div h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+div.headline a, .video-a, .offer a {
+    background-color: black;
+    padding: 8px;
+    color: #fffffe;
+}
+
+/* p.sideways {
+    border: 3px solid wheat;
+    position: absolute;
+    font-size: 1rem;
+    padding: 0% 0% 70% 0%;
+    transform: rotate(90deg);
+} */
+
+.first-time {
+    background-color: black;
+    padding: 5% 2%;
+    margin-left: 8%;
+    height: 50%;
+    width: 20%;
+}
+
+.first-time * {
+    padding: 5% 2%;
+}
+
+
+div.first-time p {
+    font-size: 1rem;
+}
+
+.white-btn {
+    color: black;
+    background-color: #fffffe;
+    padding: 8px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* MAIN */
+
+.main {
+    margin: 10% 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main h1, .main p {
+    padding: 10px;
+}
+
+section.main div  {
+    text-align: center;
+    padding: 0 10px;
+}
+
+section.main div p {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+/* VIDEO SECTION */
+.video {
+    background-color: #004643;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.video * {
+    margin: 1rem auto;
+}
+
+.video p {
+    font-weight: 200;
+}
+
+.video h4 {
+    font-size: 1.5rem;
+    text-transform:uppercase;
+}
+
+.video a {
+    margin-top: 20px;
+}
+
+/* TEAM SECTION */
+.team {
+    margin: 10% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.team img {
+    height: 400px;
+    width: auto;
+    margin-bottom: -20px;
+    z-index: -1;
+}
+
+.team-name, .team-name span {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .9rem;
+    text-align: center;
+    z-index: 2;
+    background-color: black;
+}
+
+.team-name {
+    padding: 5px 0px ;
+    margin: 0px 10px 10px 10px;
+}
+
+/* OFFER */
+.offer p, .offer h4 {
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.offer span {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin: 1rem 8%;
+    display: block;
+    height: 400px;
+    padding: 5%;
+    background: linear-gradient(to left, transparent, #001e1d), url(img/JanKopřiva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+}
+
+.offer a {
+    margin-top: 2rem;
+}
+
+/* LOOKBOOK */
+.lookbook {
+    /* background-color: #004643; */
+    text-transform: uppercase;
+}
+
+.lookbook h4 {
+    margin: 1rem;
+    padding: 10px;
+    border-bottom: 2px solid #fffffe;
+    text-align: center;
+}
+
+/* .lookbook img {
+    height: 400px;
+    width: auto;
+} */
+/* .pics {
+    margin: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;  
+} */
+
+.pics {
+    margin: 0% 20%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    list-style: none;
+    height: 30vh;
+    flex-grow: 1;
+  }
+  
+  img {
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+
+/* FOOTER */
+footer nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 2px solid #fffffe;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
